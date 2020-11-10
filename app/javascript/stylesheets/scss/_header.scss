@@ -98,12 +98,12 @@
         text-transform: uppercase;
         font-family: "ProximaNova-Bold", sans-serif;
         font-size: 0.8rem;
-        color: #727272;
+        color: $blueColor;
         transition: 0.2s;
         margin-right: 35px;
 
         &:hover {
-          color: #f50a9a;
+          color: $blueColorSecondary;
         }
       }
 
