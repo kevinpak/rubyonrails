@@ -1,2 +1,12 @@
 @import "custom";
 @import "~bootstrap/scss/bootstrap";
+
+//Btn
+.i-btn {
+    @include button-variant(#030c08, #eeff00, red, #444, #333, red);
+    color: #fff;
+
+    &:hover {
+        background-color: #006d49;
+    }
+}
